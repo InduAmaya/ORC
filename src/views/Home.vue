@@ -1,5 +1,5 @@
 <template>
-  <div class="slide">
+  <div id="slide">
     <b-carousel
       id="carousel-fade"
       v-model="slide"
@@ -7,17 +7,19 @@
       controls
       indicators
       background="#ababab"
-      style="text-shadow: 10% 0px 2px #000"
+      style="text-shadow: 10% 0px 2px #000, padding: 20px"
+      height="300px"
       fade
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
+      
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="../assets/mount.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/hiking.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/rafting.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/abseiling.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/camp.jpg"></b-carousel-slide>
+      <b-carousel-slide height="300px" img-src="../assets/mount.jpg"></b-carousel-slide>
+      <b-carousel-slide height="300px" img-src="../assets/hiking.jpg"></b-carousel-slide>
+      <b-carousel-slide height="300px" img-src="../assets/rafting.jpg"></b-carousel-slide>
+      <b-carousel-slide height="300px" img-src="../assets/abseiling.jpg"></b-carousel-slide>
+      <b-carousel-slide height="300px" img-src="../assets/camp.jpg"></b-carousel-slide>
       
     </b-carousel>
   </div>
@@ -39,6 +41,7 @@
       }
     }
   }
+
 </script>
 
 <script>

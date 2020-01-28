@@ -14,7 +14,7 @@ const routes = [
     path: "/events",
     name: "events",
     component: () =>
-      import(/* webpackChunkName: "gallery" */ "../views/Events.vue")
+      import(/* webpackChunkName: "events" */ "../views/Events.vue")
   },
   {
     path: "/gallery",
@@ -35,7 +35,7 @@ const routes = [
     path: "/contact",
     name: "contact",
     component: () =>
-      import(/* webpackChunkName: "gallery" */ "../views/Contact.vue")
+      import(/* webpackChunkName: "contact" */ "../views/Contact.vue")
   }
 ];
 
