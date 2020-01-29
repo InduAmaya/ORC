@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <div id="nav">
-      <top-header></top-header>
+      <TopHeader/>
+      
     </div>
     <router-view />
+    <Footer/>
   </div>
 </template>
 
 <script>
-import TopHeader from './components/TopHeader.vue'
+import TopHeader from "./components/TopHeader.vue"
+import Footer from "./components/Footer.vue"
 export default {
+  name: 'App',
   components: {
-    'top-header':TopHeader
+    TopHeader,
+    Footer
   }
 }
 </script>
