@@ -2,12 +2,13 @@
   <div id="slide">
     <b-carousel
       id="carousel-fade"
+      class="mx-5"
       v-model="slide"
       :interval="4000"
       controls
       indicators
       background="#ababab"
-      style="text-shadow: 10% 0px 2px #000, padding: 20px"
+      style="text-shadow: 10% 0px 2px #000"
       height="300px"
       fade
       @sliding-start="onSlideStart"
