@@ -1,20 +1,6 @@
 <template>
   <div class="about">
     <h1>Outdoor Recreational Center</h1>
-    <div class="bg" style=
-          "body, html {
-            height: 100%;
-          }
-          .bg {
-            background-image: ;
-
-            
-            height: 50%;
-
-           
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover; " ></div>
     <div align-h="center">
     <b-card
       class="mx-5 mt-4"
@@ -32,8 +18,10 @@
     </b-card>
     </div>
     <b-card no-body class="text-center py-5" text-variant="black" >
-      The Outdoor Recreation Center is under the Department of Sports Sciences and Physical Education, Sabaragamuwa University of Sri Lanka. <br> This is an inbound and outbound training center which has many interesting and adventurous events such as hiking, water rafting, camping, waterfall abseiling, etc.
-  </b-card>
+      The Outdoor Recreation Center is under the Department of Sports Sciences and Physical Education, Sabaragamuwa University of Sri Lanka. <br> 
+      This is an inbound and outbound training center which has many interesting and adventurous events such as hiking, water rafting, camping, waterfall abseiling, etc.
+    </b-card>
+    
   </div>
 
 </template>
