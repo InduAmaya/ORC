@@ -18,8 +18,8 @@
             </b-card>
         </div>  
 
-        <div>
-          <b-card class="mx-5 my-5" style="width: 600px; background-color: rgba(0,0,255,.1)">
+        <div align="center">
+          <b-card class="my-5" style="width: 600px; background-color: rgba(0,0,255,.1)">
             <h3>Registration</h3>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="input-group-1" label="Your Name:" label-for="input-2">
